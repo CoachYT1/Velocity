@@ -23,7 +23,7 @@ import org.checkerframework.checker.nullness.qual.Nullable;
 /**
  * Represents a 1.7 and above server list ping response. This class is immutable.
  */
-public final class ServerPing {
+public class ServerPing {
 
   private final Version version;
   private final @Nullable Players players;
